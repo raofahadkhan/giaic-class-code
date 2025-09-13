@@ -36,7 +36,7 @@ async def main():
 
     external_client = AsyncOpenAI(
         api_key=API_KEY,
-        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+        base_url="https://generativelanguage.googleapis.com/v1beta/openai/",   # gemini api_url
     )
 
 
